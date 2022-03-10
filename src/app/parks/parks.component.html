@@ -1,1 +1,18 @@
-<p>parks works!</p>
+<div class="w3-container">
+  <h2>Photo Card</h2>
+
+
+    <div *ngFor="let park of parks">
+      <div class="w3-card-4" style="width:50%">
+        <img src="{{park.image_URL}}" alt="park.alt_Text" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>{{park.caption}}</p>
+          </div>
+      </div>
+    </div>
+
+
+</div>
+
+
+
