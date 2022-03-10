@@ -15,6 +15,8 @@ import { ParksComponent } from './parks/parks.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'parks', component: ParksComponent },
+
     ])
   ],
   declarations: [
